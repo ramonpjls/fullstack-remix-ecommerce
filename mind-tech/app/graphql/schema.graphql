@@ -1,0 +1,8 @@
+type Mutation {
+  agregarProductoFavorito(productoId: ID!): ProductoFavorito
+}
+
+type ProductoFavorito {
+  id: ID!
+  productoId: ID!
+}
